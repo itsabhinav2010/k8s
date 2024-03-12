@@ -671,13 +671,6 @@ spec:
       ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
       ##
       prometheusSpec:
-        nodeSelector:
-          taints.eks.aws.uk.tsb/role: mgmt
-        tolerations:
-          - key: role
-            operator: Equal
-            value: mgmt
-            effect: NoSchedule
         image:
           repository: docker.artifactory.mgmt.aws.uk.tsb/quay-docker-remote/prometheus/prometheus
           tag: v2.28.0
