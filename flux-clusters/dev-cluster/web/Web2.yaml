@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   labels:
     run: nginx
-  name: Deep-pod
+  name: deep-pod
   namespace: web
 spec:
   containers:
