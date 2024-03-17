@@ -13,4 +13,4 @@ spec:
         name: metrics-server
       version: 3.12.0
   interval: 10s
-  targetNamespace: kube-system
+  targetNamespace: flux-system
