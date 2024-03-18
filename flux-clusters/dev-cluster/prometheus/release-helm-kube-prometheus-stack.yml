@@ -712,7 +712,7 @@ spec:
         enforcedNamespaceLabel: ""
         enforcedSampleLimit: false
         enforcedTargetLimit: false
-        evaluationInterval: ""
+        evaluationInterval: 1m
         excludedFromEnforcement: []
         exemplars: ""
         externalLabels: {}
@@ -767,7 +767,7 @@ spec:
         scrapeConfigNamespaceSelector: {}
         scrapeConfigSelector: {}
         scrapeConfigSelectorNilUsesHelmValues: true
-        scrapeInterval: ""
+        scrapeInterval: 1m
         scrapeTimeout: ""
         secrets: []
         securityContext:
