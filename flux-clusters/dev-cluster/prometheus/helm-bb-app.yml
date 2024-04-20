@@ -25,4 +25,4 @@ spec:
       version: 7.6.0
   interval: 1m0s
   targetNamespace: web
-  suspend: true
+  suspend: false
