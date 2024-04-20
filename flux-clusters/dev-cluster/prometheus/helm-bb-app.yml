@@ -32,8 +32,6 @@ spec:
     service:
       type: NodePort
       nodePort: 30006
-    namespace:
-      name: web
     labels:
       app:
         name: block-buster
