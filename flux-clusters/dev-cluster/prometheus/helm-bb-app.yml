@@ -26,3 +26,5 @@ spec:
   interval: 1m0s
   targetNamespace: web
   suspend: false
+  values:
+    replicaCount: 3         
