@@ -27,4 +27,15 @@ spec:
   targetNamespace: web
   suspend: false
   values:
-    replicaCount: 3         
+    replicaCount: 2
+
+    service:
+      type: NodePort
+      nodePort: 30006
+    namespace:
+      name: web
+    labels:
+      app:
+        name: block-buster
+        version: 7.6.0
+        env: dev
