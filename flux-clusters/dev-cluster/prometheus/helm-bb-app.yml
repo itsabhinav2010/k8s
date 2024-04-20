@@ -32,8 +32,3 @@ spec:
     service:
       type: NodePort
       nodePort: 30006
-    labels:
-      app:
-        name: block-buster
-        version: 7.6.0
-        env: dev
