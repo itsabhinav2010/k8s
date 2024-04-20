@@ -23,6 +23,6 @@ spec:
         kind: HelmRepository
         name: source-helm-bb-app
       version: 7.6.0
-  interval: 10s
+  interval: 1m0s
   targetNamespace: web
   suspend: false
