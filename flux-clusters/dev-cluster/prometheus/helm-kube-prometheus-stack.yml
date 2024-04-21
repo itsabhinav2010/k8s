@@ -305,7 +305,7 @@ spec:
       rules:
         alertmanager: true
         configReloaders: true
-        etcd: true
+        etcd: false
         general: true
         k8sContainerCpuUsageSecondsTotal: true
         k8sContainerMemoryCache: true
@@ -350,7 +350,7 @@ spec:
         pspEnabled: false
     grafana:
       additionalDataSources: []
-      adminPassword: prom-operator
+      adminPassword: Aadhya@123
       defaultDashboardsEditable: true
       defaultDashboardsEnabled: true
       defaultDashboardsTimezone: utc
