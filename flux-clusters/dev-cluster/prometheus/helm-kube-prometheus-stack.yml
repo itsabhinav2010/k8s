@@ -205,25 +205,7 @@ spec:
       templateFiles: {}
       tplConfig: false
     cleanPrometheusOperatorObjectNames: false
-    commonLabels: {}
-    coreDns:
-      enabled: true
-      service:
-        enabled: true
-        port: 9153
-        targetPort: 9153
-      serviceMonitor:
-        additionalLabels: {}
-        enabled: true
-        interval: ""
-        labelLimit: 0
-        labelNameLengthLimit: 0
-        labelValueLengthLimit: 0
-        metricRelabelings: []
-        proxyUrl: ""
-        relabelings: []
-        sampleLimit: 0
-        targetLimit: 0
+    commonLabels: {}  
     crds:
       enabled: true
     defaultRules:
