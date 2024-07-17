@@ -27,7 +27,7 @@ spec:
   targetNamespace: web
   suspend: false
   values:
-    replicaCount: 1
+    replicaCount: 0
     service:
       type: NodePort
       nodePort: 30006
