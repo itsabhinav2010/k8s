@@ -12,3 +12,19 @@ spec:
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
+
+--- 
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx
+  name: nginx-new
+  namespace: web
+spec:
+  containers:
+  - image: nginx
+    name: nginx
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
